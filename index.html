@@ -5,27 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeChatMedia - AI Tools for Content Creators & Social Growth</title>
     <meta name="description" content="Stop searching. Discover the best AI tools for video editing, copywriting, and social media growth. Curated for creators and marketers.">
-    
-    <!-- 1. Google Analytics (注册后把代码贴在下面) -->
-    <!-- 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5C4DK4JLX9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5C4DK4JLX9');
-</script> 
-    -->
-
+    <!-- GA Code -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "DataCatalog",
       "name": "WeChatMedia AI Directory",
-      "description": "A curated collection of AI tools for media creators, marketers, and social media managers.",
+      "description": "A curated collection of AI tools for media creators.",
       "url": "https://wechatmedia.com",
       "provider": { "@type": "Organization", "name": "WeChatMedia" }
     }
@@ -52,113 +39,135 @@
             Discover the best AI tools to scale your <strong>Social Media & Brand Growth</strong>.
         </p>
         <div class="max-w-xl mx-auto relative mb-8">
-            <input type="text" placeholder="Search for 'sora' or 'chatgpt'..." class="w-full p-4 pl-6 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 transition">
+            <input type="text" placeholder="Search for 'kling' or 'deepseek'..." class="w-full p-4 pl-6 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 transition">
             <button class="absolute right-2 top-2 bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition font-medium">Search</button>
         </div>
         
-        <!-- 快速分类标签 (已更新 WeChat 入口) -->
+        <!-- Filter Tags -->
         <div class="flex flex-wrap justify-center gap-3">
-            <a href="tool/wechat-marketing.html" class="px-4 py-1.5 bg-red-50 border border-red-200 rounded-full text-sm text-red-600 font-bold cursor-pointer hover:bg-red-100 transition">🚀 WeChat Growth</a>
-            <span class="px-4 py-1.5 bg-gray-50 border border-gray-200 rounded-full text-sm text-gray-600 cursor-pointer hover:border-indigo-500 hover:text-indigo-600 transition">🎥 AI Video</span>
-            <span class="px-4 py-1.5 bg-gray-50 border border-gray-200 rounded-full text-sm text-gray-600 cursor-pointer hover:border-indigo-500 hover:text-indigo-600 transition">✍️ Copywriting</span>
-            <span class="px-4 py-1.5 bg-gray-50 border border-gray-200 rounded-full text-sm text-gray-600 cursor-pointer hover:border-indigo-500 hover:text-indigo-600 transition">🎨 Image Gen</span>
+            <a href="tool/wechat-marketing.html" class="px-4 py-1.5 bg-red-50 border border-red-200 rounded-full text-sm text-red-600 font-bold hover:bg-red-100 transition">🚀 WeChat Growth</a>
+            <span class="px-4 py-1.5 bg-gray-50 border border-gray-200 rounded-full text-sm text-gray-600 cursor-pointer hover:border-indigo-500 hover:text-indigo-600 transition">🎥 Video</span>
+            <span class="px-4 py-1.5 bg-gray-50 border border-gray-200 rounded-full text-sm text-gray-600 cursor-pointer hover:border-indigo-500 hover:text-indigo-600 transition">🤖 LLMs</span>
+            <span class="px-4 py-1.5 bg-gray-50 border border-gray-200 rounded-full text-sm text-gray-600 cursor-pointer hover:border-indigo-500 hover:text-indigo-600 transition">🎨 Image</span>
         </div>
     </header>
 
-    <!-- Tools Grid -->
+    <!-- Main Content -->
     <main class="max-w-6xl mx-auto px-4 py-12 flex-grow">
-        <div class="flex items-center justify-between mb-6">
-            <h2 class="text-2xl font-bold text-gray-900">Featured Creator Tools</h2>
-            <span class="text-sm text-gray-500">Updated Today</span>
-        </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            
-            <!-- 1. Jasper -->
-            <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center">
-                        <img src="https://ui-avatars.com/api/?name=Jasper+AI&background=7C3AED&color=fff&size=64" alt="Icon" class="w-12 h-12 rounded-lg mr-3 shadow-sm">
-                        <div><h3 class="font-bold text-lg">Jasper AI</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-purple-100 text-purple-700 px-2 py-0.5 rounded font-medium">Paid</span></div></div>
+        <!-- Section 1: Hot Video Tools -->
+        <div class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">🎥 Trending Video AI <span class="ml-3 text-xs bg-red-100 text-red-600 px-2 py-1 rounded">HOT</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Sora -->
+                <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full border-indigo-100 ring-2 ring-indigo-50">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=Sora&background=000&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">OpenAI Sora</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-red-100 text-red-600 px-2 py-0.5 rounded font-medium">Waitlist</span></div></div></div>
                     </div>
-                    <span class="text-yellow-400 font-bold text-sm">★ 4.8</span>
-                </div>
-                <p class="text-gray-600 text-sm mb-6 flex-grow">Advanced AI writing assistant designed for marketing copy, blog posts, and social media content.</p>
-                <a href="tool/jasper-ai.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition font-medium border border-indigo-100">View Details</a>
-            </article>
-
-            <!-- 2. ChatGPT -->
-            <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center">
-                        <img src="https://ui-avatars.com/api/?name=ChatGPT&background=10a37f&color=fff&size=64" alt="Icon" class="w-12 h-12 rounded-lg mr-3 shadow-sm">
-                        <div><h3 class="font-bold text-lg">ChatGPT</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded font-medium">Freemium</span></div></div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">The most anticipated AI video model. Create 60s realistic videos.</p>
+                    <a href="tool/sora.html" class="block w-full text-center bg-indigo-600 text-white py-2.5 rounded-lg hover:bg-indigo-700 transition">Check Availability</a>
+                </article>
+                <!-- Kling -->
+                <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=Kling&background=000&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">Kling AI</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded font-medium">Free Trial</span></div></div></div>
                     </div>
-                    <span class="text-yellow-400 font-bold text-sm">★ 4.9</span>
-                </div>
-                <p class="text-gray-600 text-sm mb-6 flex-grow">The industry standard for conversational AI. Great for brainstorming, coding, and general tasks.</p>
-                <a href="tool/chatgpt.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition font-medium border border-indigo-100">View Review</a>
-            </article>
-
-            <!-- 3. Midjourney -->
-            <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center">
-                        <img src="https://ui-avatars.com/api/?name=Midjourney&background=000&color=fff&size=64" alt="Icon" class="w-12 h-12 rounded-lg mr-3 shadow-sm">
-                        <div><h3 class="font-bold text-lg">Midjourney</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-purple-100 text-purple-700 px-2 py-0.5 rounded font-medium">Paid</span></div></div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">The "Sora Killer" from Kuaishou. Creates stunning 2-minute 1080p videos.</p>
+                    <a href="tool/kling.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition border border-indigo-100">View Review</a>
+                </article>
+                 <!-- HeyGen -->
+                 <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=HeyGen&background=7C3AED&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">HeyGen</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-purple-100 text-purple-700 px-2 py-0.5 rounded font-medium">Paid</span></div></div></div>
                     </div>
-                    <span class="text-yellow-400 font-bold text-sm">★ 4.9</span>
-                </div>
-                <p class="text-gray-600 text-sm mb-6 flex-grow">Create stunning, high-fidelity AI art via Discord. Best for artistic visuals.</p>
-                <a href="tool/midjourney.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition font-medium border border-indigo-100">View Prompts</a>
-            </article>
-
-            <!-- 4. Runway -->
-            <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center">
-                        <img src="https://ui-avatars.com/api/?name=Runway&background=2563eb&color=fff&size=64" alt="Icon" class="w-12 h-12 rounded-lg mr-3 shadow-sm">
-                        <div><h3 class="font-bold text-lg">Runway Gen-2</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-purple-100 text-purple-700 px-2 py-0.5 rounded font-medium">Paid</span></div></div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">Create professional AI avatars and translate videos with lip-sync.</p>
+                    <a href="tool/heygen.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition border border-indigo-100">View Details</a>
+                </article>
+                <!-- Runway -->
+                <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=Runway&background=2563eb&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">Runway Gen-3</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-purple-100 text-purple-700 px-2 py-0.5 rounded font-medium">Paid</span></div></div></div>
                     </div>
-                    <span class="text-yellow-400 font-bold text-sm">★ 4.7</span>
-                </div>
-                <p class="text-gray-600 text-sm mb-6 flex-grow">Turn text into realistic videos instantly. The leading AI video generation platform.</p>
-                <a href="tool/runway-ml.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition font-medium border border-indigo-100">View Details</a>
-            </article>
-
-            <!-- 5. ElevenLabs -->
-            <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center">
-                        <img src="https://ui-avatars.com/api/?name=ElevenLabs&background=1f2937&color=fff&size=64" alt="Icon" class="w-12 h-12 rounded-lg mr-3 shadow-sm">
-                        <div><h3 class="font-bold text-lg">ElevenLabs</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded font-medium">Freemium</span></div></div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">Turn text into realistic videos instantly. Industry standard tool.</p>
+                    <a href="tool/runway-ml.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition border border-indigo-100">View Details</a>
+                </article>
+                <!-- Luma -->
+                <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=Luma&background=000&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">Luma Dream</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded font-medium">Freemium</span></div></div></div>
                     </div>
-                    <span class="text-yellow-400 font-bold text-sm">★ 4.8</span>
-                </div>
-                <p class="text-gray-600 text-sm mb-6 flex-grow">The most realistic AI voice generator. Perfect for video narration and podcasts.</p>
-                <a href="tool/elevenlabs.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition font-medium border border-indigo-100">View Samples</a>
-            </article>
-
-            <!-- 6. Sora -->
-            <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full border-indigo-100 ring-2 ring-indigo-50">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center">
-                        <img src="https://ui-avatars.com/api/?name=Sora&background=000&color=fff&size=64" alt="Icon" class="w-12 h-12 rounded-lg mr-3 shadow-sm">
-                        <div>
-                            <h3 class="font-bold text-lg">OpenAI Sora</h3>
-                            <div class="flex gap-2 mt-1"><span class="text-[10px] bg-red-100 text-red-600 px-2 py-0.5 rounded font-medium">Waitlist</span></div>
-                        </div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">Fast, high-quality video generation with generous free daily credits.</p>
+                    <a href="tool/luma.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition border border-indigo-100">View Review</a>
+                </article>
+                <!-- ElevenLabs -->
+                <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=ElevenLabs&background=1f2937&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">ElevenLabs</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded font-medium">Freemium</span></div></div></div>
                     </div>
-                    <span class="text-yellow-400 font-bold text-sm">★ 5.0</span>
-                </div>
-                <p class="text-gray-600 text-sm mb-6 flex-grow">The most anticipated AI video model. Create 60s realistic videos. Check release date info.</p>
-                <a href="tool/sora.html" class="block w-full text-center bg-indigo-600 text-white py-2.5 rounded-lg hover:bg-indigo-700 transition font-medium shadow-md">Check Availability</a>
-            </article>
-
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">Realistic AI voice generator for video narration.</p>
+                    <a href="tool/elevenlabs.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition border border-indigo-100">View Samples</a>
+                </article>
+            </div>
         </div>
+
+        <!-- Section 2: Smart Chatbots & Writing -->
+        <div class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">🤖 Smart Assistants & Coding</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- DeepSeek -->
+                <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=DeepSeek&background=3b82f6&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">DeepSeek</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-blue-100 text-blue-700 px-2 py-0.5 rounded font-medium">Open Source</span></div></div></div>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">The best open-source model for coding, math, and Chinese context.</p>
+                    <a href="tool/deepseek.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition border border-indigo-100">View Details</a>
+                </article>
+                <!-- Qwen -->
+                <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=Qwen&background=6d28d9&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">Qwen (千问)</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded font-medium">Long Context</span></div></div></div>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">Best for analyzing huge documents and writing long WeChat articles.</p>
+                    <a href="tool/qwen.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition border border-indigo-100">View Review</a>
+                </article>
+                <!-- Grok -->
+                <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=Grok&background=000&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">Grok</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-gray-100 text-gray-700 px-2 py-0.5 rounded font-medium">Real-time</span></div></div></div>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">Elon Musk's AI. Access real-time X (Twitter) news and trends.</p>
+                    <a href="tool/grok.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition border border-indigo-100">View Details</a>
+                </article>
+                <!-- ChatGPT -->
+                <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=ChatGPT&background=10a37f&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">ChatGPT</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-green-100 text-green-700 px-2 py-0.5 rounded font-medium">Freemium</span></div></div></div>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">The industry standard. Great for general brainstorming.</p>
+                    <a href="tool/chatgpt.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition border border-indigo-100">View Review</a>
+                </article>
+                <!-- Jasper -->
+                <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=Jasper+AI&background=7C3AED&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">Jasper AI</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-purple-100 text-purple-700 px-2 py-0.5 rounded font-medium">Paid</span></div></div></div>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">Advanced AI writing assistant for marketing copy.</p>
+                    <a href="tool/jasper-ai.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition border border-indigo-100">View Details</a>
+                </article>
+                 <!-- Midjourney -->
+                 <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 flex flex-col h-full">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center"><img src="https://ui-avatars.com/api/?name=Midjourney&background=000&color=fff&size=64" class="w-12 h-12 rounded-lg mr-3 shadow-sm"><div><h3 class="font-bold text-lg">Midjourney</h3><div class="flex gap-2 mt-1"><span class="text-[10px] bg-purple-100 text-purple-700 px-2 py-0.5 rounded font-medium">Paid</span></div></div></div>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">Create stunning, high-fidelity AI art via Discord.</p>
+                    <a href="tool/midjourney.html" class="block w-full text-center bg-indigo-50 text-indigo-700 py-2.5 rounded-lg hover:bg-indigo-100 transition border border-indigo-100">View Prompts</a>
+                </article>
+            </div>
+        </div>
+
     </main>
 
-    <!-- Professional Footer (Updated) -->
+    <!-- Professional Footer -->
     <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800 mt-auto">
         <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -185,6 +194,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
