@@ -1,70 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- 首页 -->
+  
+  <!-- ==================== 核心页面 (优先级 1.0) ==================== -->
   <url>
     <loc>https://www.wechatmedia.com/</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
     <priority>1.0</priority>
   </url>
-  
-  <!-- 核心攻略 -->
   <url>
     <loc>https://www.wechatmedia.com/tool/wechat-marketing.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
     <priority>0.9</priority>
   </url>
 
-  <!-- 视频 AI -->
+  <!-- ==================== AI 工具页 (优先级 0.8) ==================== -->
+  <!-- 视频类 -->
   <url>
     <loc>https://www.wechatmedia.com/tool/sora.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
   <url>
     <loc>https://www.wechatmedia.com/tool/runway-ml.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
   <url>
     <loc>https://www.wechatmedia.com/tool/heygen.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
   <url>
     <loc>https://www.wechatmedia.com/tool/kling.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
   <url>
     <loc>https://www.wechatmedia.com/tool/luma.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
 
-  <!-- 大模型 & 聊天 -->
+  <!-- 大模型 & 写作类 -->
   <url>
     <loc>https://www.wechatmedia.com/tool/chatgpt.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
   <url>
     <loc>https://www.wechatmedia.com/tool/deepseek.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
   <url>
     <loc>https://www.wechatmedia.com/tool/qwen.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
   <url>
     <loc>https://www.wechatmedia.com/tool/grok.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
   <url>
     <loc>https://www.wechatmedia.com/tool/jasper-ai.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
 
-  <!-- 其他 -->
+  <!-- 绘画 & 语音类 -->
   <url>
     <loc>https://www.wechatmedia.com/tool/midjourney.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
   <url>
     <loc>https://www.wechatmedia.com/tool/elevenlabs.html</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2025-12-08</lastmod>
   </url>
+
+  <!-- ==================== 博客文章 (优先级 0.7) ==================== -->
+  <url>
+    <loc>https://www.wechatmedia.com/blog/deepseek-vs-chatgpt.html</loc>
+    <lastmod>2025-12-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wechatmedia.com/blog/gpt-5-release-date.html</loc>
+    <lastmod>2025-12-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wechatmedia.com/blog/flux-vs-midjourney.html</loc>
+    <lastmod>2025-12-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wechatmedia.com/blog/how-to-extract-image-style.html</loc>
+    <lastmod>2025-12-08</lastmod>
+  </url>
+
+  <!-- 🔥🔥🔥 ↓↓↓ 下次有新页面，请复制下面这3行，粘贴在这里 ↓↓↓ 🔥🔥🔥 -->
+  <!-- 
+  <url>
+    <loc>https://www.wechatmedia.com/你的新页面文件名.html</loc>
+    <lastmod>2025-12-08</lastmod>
+  </url> 
+  -->
+  <!-- 🔥🔥🔥 ↑↑↑ 粘贴在上面 ↑↑↑ 🔥🔥🔥 -->
+
 </urlset>
