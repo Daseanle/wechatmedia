@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO 标题：痛点 + 解决方案 -->
+    <title>How to Extract Style from Any Image using AI (Midjourney Guide)</title>
+    <meta name="description" content="Learn how to copy art styles from any photo using Midjourney Style Reference (--sref) and Describe feature. Perfect for WeChat cover consistency.">
+    
+    <!-- GA Code -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm p-4 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-indigo-600 flex items-center gap-2">
+                WeChatMedia <span class="text-xs bg-gray-100 text-gray-500 px-2 py-1 rounded-full">Blog</span>
+            </a>
+            <a href="/" class="text-sm font-medium hover:text-indigo-600">Back to Tools</a>
+        </div>
+    </nav>
+
+    <!-- Article Content -->
+    <main class="max-w-3xl mx-auto px-4 py-12 flex-grow">
+        <article class="prose prose-lg prose-indigo mx-auto bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-gray-100">
+            
+            <span class="text-xs font-bold text-pink-600 bg-pink-50 px-3 py-1 rounded-full mb-4 inline-block">Tutorial</span>
+            <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">How to "Steal" Any Image Style with AI (Consistency Guide)</h1>
+
+            <p class="text-xl text-gray-500 leading-relaxed mb-8">
+                Found a stunning illustration on Pinterest or Xiaohongshu and thought: <em>"I wish I could make all my WeChat covers look like this"</em>?
+            </p>
+            <p>
+                Good news. You no longer need to guess the prompts. <a href="/tool/midjourney.html" class="text-indigo-600 font-bold hover:underline">Midjourney v6</a> has introduced powerful features to extract and copy styles instantly.
+            </p>
+
+            <!-- 方法一：反推提示词 -->
+            <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Method 1: The "Describe" Trick (For Prompts)</h2>
+            <p>
+                If you want to know the <strong>keywords</strong> describing an image style (e.g., "Cyberpunk", "Ukiyo-e"), use this method.
+            </p>
+            <ol class="list-decimal pl-5 space-y-2 text-gray-600">
+                <li>Open Discord and type <code>/describe</code>.</li>
+                <li>Upload your reference image.</li>
+                <li>Midjourney will give you 4 detailed text descriptions.</li>
+                <li><strong>Copy the style keywords</strong> from the result and use them in your own prompts.</li>
+            </ol>
+
+            <!-- 方法二：Style Reference (核心干货) -->
+            <div class="bg-indigo-50 p-6 rounded-xl border border-indigo-100 my-8">
+                <h2 class="text-2xl font-bold text-indigo-900 mt-0 mb-4">Method 2: Style Reference (The Pro Way)</h2>
+                <p class="text-indigo-800 mb-4">
+                    This is the game-changer feature introduced in 2024. It copies the <strong>vibe, colors, and texture</strong> without copying the subject.
+                </p>
+                
+                <h3 class="font-bold text-indigo-900 mb-2">How to use it:</h3>
+                <div class="bg-gray-900 text-green-400 p-4 rounded-lg font-mono text-sm shadow-inner overflow-x-auto">
+                    /imagine prompt: A cute cat sitting on a sofa --sref URL_OF_IMAGE --sw 100
+                </div>
+                
+                <ul class="list-disc pl-5 space-y-2 text-indigo-800 mt-4 text-sm">
+                    <li><strong>--sref:</strong> Stands for "Style Reference". Paste the image link after this tag.</li>
+                    <li><strong>--sw 100:</strong> Sets the "Style Weight" (0 to 1000). Higher number = stronger copy of the style.</li>
+                </ul>
+            </div>
+
+            <!-- 应用场景 -->
+            <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Why is this useful for WeChat Creators?</h2>
+            <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                <li><strong>Brand Consistency:</strong> Use the same <code>--sref</code> image for all your article covers to build a recognizable brand.</li>
+                <li><strong>Copy Trending Styles:</strong> See a popular 3D icon style? Just reference it. No need to learn 3D modeling.</li>
+            </ul>
+
+            <!-- 替代方案 -->
+            <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Free Alternatives?</h2>
+            <p>
+                Midjourney is paid ($10/mo). If you want a free way to do style transfer, you can try:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 not-prose mt-4">
+                <a href="/tool/luma.html" class="block p-4 border border-gray-200 rounded-xl hover:border-green-300 transition">
+                    <h3 class="font-bold text-gray-900">Luma Dream Machine</h3>
+                    <p class="text-sm text-gray-600">Allows using an image as the "First Frame" for video generation.</p>
+                </a>
+                <a href="/blog/flux-vs-midjourney.html" class="block p-4 border border-gray-200 rounded-xl hover:border-purple-300 transition">
+                    <h3 class="font-bold text-gray-900">Flux.1 (LoRA)</h3>
+                    <p class="text-sm text-gray-600">Use Style LoRAs with Flux for consistent results (Requires technical setup).</p>
+                </a>
+            </div>
+
+            <!-- CTA -->
+            <div class="mt-12 bg-gray-100 p-8 rounded-2xl text-center">
+                <h3 class="text-xl font-bold mb-4">Start Creating Now</h3>
+                <a href="/tool/midjourney.html" class="bg-indigo-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-700 transition">Get Midjourney Guide</a>
+            </div>
+
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800 mt-auto text-center">
+        <p>&copy; 2025 WeChatMedia.com. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
