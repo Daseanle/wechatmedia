@@ -11,16 +11,45 @@
     <!-- GA Code Placeholder -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Schema: Product (用于虚拟产品) -->
+    <!-- Schema: Product (已修复 Image 和 Availability 错误) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "The Viral WeChat Prompt Pack",
-      "description": "50+ ChatGPT prompts specifically for WeChat Official Account growth.",
+      "image": "https://ui-avatars.com/api/?name=WeChat+Pack&background=7C3AED&color=fff&size=512&font-size=0.33",
+      "description": "50+ ChatGPT prompts specifically for WeChat Official Account growth. Digital PDF download.",
+      "brand": {
+        "@type": "Brand",
+        "name": "WeChatMedia"
+      },
       "offers": {
         "@type": "Offer",
+        "url": "https://wechatmedia.com/",
+        "priceCurrency": "USD",
         "price": "9.90",
-        "priceCurrency": "USD"
+        "priceValidUntil": "2026-12-31",
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 0,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": 0,
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          }
+        }
       }
     }
     </script>
